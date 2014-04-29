@@ -21,7 +21,7 @@ point pt;
 		
 		background(0);
 		
-		stroke(255,0,0);
+		stroke(255,0,255);
 		fill(255);
 		ellipse(mouseX,mouseY,301.5f,30);
 		
@@ -30,6 +30,7 @@ point pt;
 	
 	public static void main(String _args[]) {
 		PApplet.main(new String[] { tutorial24.Tutorial24.class.getName()});
+
 	
 	}
 }
